@@ -1,6 +1,4 @@
-import Image from "next/image";
 import { Header } from "./components/Header";
-import { Footer } from "./components/Footer";
 import { LandingPage } from "./components/LandingPage";
 
 export default function Home() {
@@ -8,7 +6,6 @@ export default function Home() {
     <>
       <Header />
       <LandingPage />
-      {/* <Footer /> */}
     </>
   );
 }

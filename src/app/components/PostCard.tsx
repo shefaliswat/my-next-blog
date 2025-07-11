@@ -1,9 +1,9 @@
 "use client";
 import Link from "next/link";
-import { blogposts } from "../../../types";
 import { usePathname } from "next/navigation";
+import { blogposts } from "../../../types";
 
-export const PostCard = (props: any) => {
+export const PostCard = (props:blogposts) => {
   const { title, name, id, content } = props;
   const pathname = usePathname();
   const isHomePage = pathname === "/";
